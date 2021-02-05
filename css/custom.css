@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+}
+
+/* navbar */
+
+#rog-logo {
+    height: 50px;
+    
+}
+.nav-link:hover {
+    color: red !important;
+}
+
+@media (min-width: 768px) {
+    .space {
+        margin: 0px 60px;
+    }
+}
+
+/* end of navbar */
+
+.gadget-name {
+    color: white;
+    font-size: 2em;
+}
+
+.carousel-item {
+    height: 575px;
+    background-color: black;
+ }
+ .carousel-item img {
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+ }
+ 
+ @media (max-width: 768px) {
+     .carousel-item {
+         height: 300px;
+     }
+     .carousel-item img{
+         object-fit: contain;
+     }
+ }
+
+
+.red {
+    color: red;
+}
+#capability {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#capability .container-item {
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    color: white;
+    background-color: ;
+
+}
+
+.fade-in {
+    animation: fadeInTrans ease-in 0.5s;
+    -webkit-animation: fadeInTrans ease-in 0.5s;
+    -moz-animation: fadeInTrans ease-in 0.5s;
+    -o-animation: fadeInTrans ease-in 0.5s;
+    -ms-animation: fadeInTrans ease-in 0.5s;
+  }
+@keyframes fadeInTrans {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+}
